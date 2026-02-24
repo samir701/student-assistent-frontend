@@ -6,7 +6,7 @@ import { MessageInput } from './components/MessageInput';
 import { Sparkles, Menu, X } from 'lucide-react';
 import { cn } from './lib/utils';
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://student-assistent-backend.onrender.com';
 
 function App() {
   const [sessions, setSessions] = useState({});
